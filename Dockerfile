@@ -6,4 +6,3 @@ RUN apt-get update && apt-get install -y libpq-dev \
 WORKDIR /var/www/html
 COPY ./app/ .
 
-CMD ["php-fpm"]
